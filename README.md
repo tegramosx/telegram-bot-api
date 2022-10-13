@@ -7,6 +7,11 @@ All methods are fairly self-explanatory, If something isn't clear, open an issue
 The scope of this project is just to provide a wrapper around the API without any additional features. There are other projects for creating something with plugins and command handlers without having to design all that yourself.
 
 ## Example
+First, add dependencies to your `Cargo.toml`:
+```
+[dependencies]
+telegram-bot-api = "0.1.0"
+```
 
 ```rust
 use telegram_bot_api::{bot, methods, types};
